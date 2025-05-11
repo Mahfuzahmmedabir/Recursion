@@ -7,9 +7,7 @@ void func(int i ){
     printf("%d\n", i);
     func(i+1);
 }
-
 void five_to_one(int x){
-
    if(x == 0){
     return;
    }
